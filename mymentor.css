@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body{
+    justify-content: center;
+    align-items: center; 
+    background-color: #ababab;
+    border: solid 1px #ababab;
+    border-radius: 25px;
+     margin:auto; 
+    width: 80vw; 
+    height: 80vh; 
+
+}
+#Body{
+    display: flex;
+    justify-content: center;
+    gap: 0%;
+    margin-top: 6%;
+}
+
+.logo{
+    zoom: 25%;
+   
+}
+.profilepic{
+    border: solid 0.5px transparent;
+    border-radius: 175px;
+    zoom: 25%;   
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+h1{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+}
+.slogan{
+    font-size: small;
+    color: purple;
+    text-align: center;
+    transform: translateY(30%);
+ }

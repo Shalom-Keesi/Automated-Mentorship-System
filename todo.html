@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+</head>
+<body>
+    <img src="/Images/SHIDO-DONE.png" alt="my logo" class="logo">
+    <div class="to-do-input">
+     <h1>My To-do List</h1>
+    <hr>  
+    <div class="input">
+            <h2>Add a Task</h2>
+                <input type="text" id="tasks" placeholder="What have you planned for today?">
+            <span onclick="newListItem()" class="addButton">Add Task</span>
+    </div>
+    <hr>
+    </div>
+
+    <ul id="tasks-list">
+        <div class="callout" data-closable>
+        </div>
+    </ul>
+
+
+    <p class="slogan">SHE BUILDS.SHE SERVES.SHE LEADS</p>
+    
+    <script src="todo.js"></script>
+
+    
+    
+    
+</body>
+</html>

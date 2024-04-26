@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+.Logo{
+    zoom: 15%;
+}
+#body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ababab;
+    border: solid 1px #ababab;
+    border-radius: 25px;
+    margin:3px;
+
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 6px;
+
+
+}
+.slogan{
+    font-size: small;
+    color: purple;
+    text-align: center;
+    transform: translateY(-170%);
+
+ }
+.welcome-message{
+    text-align: center;
+    font-family: "Sofia",sans-serif;
+    font-size: 60px;
+    text-shadow: 3px 3px 3px #ababab;
+    font-weight: bolder;
+}
+.button{
+    font-size: 1.8rem;
+    padding: 1rem 1rem;
+    width: 20rem;
+    text-align: center;
+    border: solid 1px transparent;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+ }
+ .button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(59, 19, 5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+ }

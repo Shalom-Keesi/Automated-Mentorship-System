@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+}
+body {
+   background-color: #f9fafb;
+   font-family: "Open Sans", sans-serif;
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.logo{
+    zoom: 25%;
+    object-fit: cover;
+}
+.slogan{
+   font-size: small;
+   color: purple;
+   transform: translateX(25%);
+}
+.registrationForm {
+   background-color: darkgray;
+   border-radius: 5px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+   width: 950px;
+   padding: 30px 40px;
+   display: flex;
+   justify-content: center;
+   gap: 5%;
+}
+.registrationForm h1 {   
+   text-align: center;
+   margin: 0 0 20px;
+   font-size: 24px;
+   font-family: "Sofia",sans-serif;
+   
+}
+.formInput {
+   margin-bottom: 20px;
+   position: relative;
+}
+.formInput-first-row{
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    justify-content: space-evenly;
+}
+.formInput label {
+   display: block;
+   margin-bottom: 10px;
+}
+.formInput input {   
+   width: 100%;
+   height: 40px;
+   padding: 0 15px;
+   background-color: transparent;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+.formInput input:hover{
+   border-color: orangered;
+}
+.formInput small {
+   display: block;
+   color: #e74c3c;
+   font-weight: lighter;
+   font-size: 11px;
+   padding-top: 3px;
+   visibility: hidden;
+}
+.formInput.success input {
+border: 2px solid #2ecc71;
+}
+.FormInput.error input {
+border: 2px solid #e74c3c;
+}
+.FormInput.error small {
+visibility: visible; 
+}
+.button{
+   font-size: 0.8rem;
+   padding: 0.4rem 1rem;
+   width: 20rem;
+   text-align: center;
+   border: solid 1px transparent;
+   margin-bottom: 1.5rem;
+   text-decoration: none;
+   color: white;
+   background-color: orangered;
+   justify-content: center;
+   
+}
+hr{
+   color: black;
+   background-color: black;
+}
+.button:hover{
+   background-color: black;
+   color: white;
+   cursor: pointer;
+   box-shadow: 0 0.4rem 1.4rem 0 rgba(86,185,235,0.5);
+   transform: translateY(-0.1rem);
+   transition: transform 150ms;
+}
+.small{
+   margin-top: 9%;
+   font-size: xx-small;
+   text-decoration: none;
+}
+
+@media  screen and (min-width:200px)and (max-width:399px){
+   .registrationForm {
+      background-color: darkgray;
+      border-radius: 5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      width: 1050px;
+      height: 100%;
+      padding: 20px 80px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0;
+      margin: auto;
+      position: relative;
+   }
+   .logo{
+      zoom: 10%;
+      transform: translateX(10%);
+  }
+  body {
+   background-color: #f9fafb;
+   font-family: "Open Sans", sans-serif;
+   height: 100vh;
+   width: 80vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+hr{
+   color: black;
+   background-color: black;
+   display: none;
+}
+.formInput input {   
+   width: 80px;
+   height: 40px;
+   padding: 0 15px;
+   background-color: transparent;
+   border: 2px solid black;
+   border-radius: 5px;
+}
+.slogan{
+   font-size: 12px;
+   color: purple;
+   transform: translateX(20%); 
+}
+label{
+   font-size: 12px;
+}
+.cPass{
+   font-size: 9px;
+   
+}
+.button{
+   font-size: 0.8rem;
+   padding: 0.4rem 1rem;
+   width: 20rem;
+   text-align: center;
+   border: solid 1px transparent;
+   margin-bottom: 1.5rem;
+   text-decoration: none;
+   color: white;
+   background-color: orangered;
+   margin-left: 40px;
+   
+}
+.formInput-first-row{
+   display: flex;
+   flex-direction: row;
+   gap: 10%;
+   justify-content: space-evenly;
+   margin: auto;
+}
+
+}
+@media  screen and (min-width:400px)and (max-width:900px){
+.registrationForm {
+   background-color: darkgray;
+   border-radius: 5px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+   width: 2450px;
+   height: 100%;
+   padding: 20px 80px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 3%;
+   margin: auto;
+   position: relative;
+}
+.logo{
+   zoom: 20%;
+}
+hr{
+   color: black;
+   background-color: black;
+   display: none;
+}
+body {
+background-color: #f9fafb;
+font-family: "Open Sans", sans-serif;
+height: 100vh;
+width: 80vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.formInput input {   
+width: 120px;
+height: 40px;
+padding: 0 15px;
+background-color: transparent;
+border: 2px solid black;
+border-radius: 5px;
+}
+.slogan{
+font-size: 10px;
+color: purple;
+transform: translateX(20%); 
+}
+label{
+font-size: 12px;
+}
+.cPass{
+font-size: 9px;
+
+}
+.formInput-first-row{
+   display: flex;
+   flex-direction: row;
+   gap: 20%;
+   justify-content: space-evenly;
+}
+.button{
+   font-size: 0.8rem;
+   padding: 0.4rem 1rem;
+   width: 20rem;
+   text-align: center;
+   border: solid 1px transparent;
+   margin-bottom: 1.5rem;
+   text-decoration: none;
+   color: white;
+   background-color: orangered;
+   margin-left: 80px;
+   
+}
+}
+@media  screen and (min-width:901px)and (max-width:1200px){
+   .registrationForm {
+      background-color: darkgray;
+      border-radius: 5px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+      height: fit-content;
+      width: 1050px;
+      padding: 20px 80px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15%;
+      margin: auto;
+      /* position: relative; */
+   }
+   .logo{
+      zoom: 15%;
+      transform: translateY(50%);
+   }
+   hr{
+      color: black;
+      background-color: black;
+      
+   }
+   body {
+   background-color: #f9fafb;
+   font-family: "Open Sans", sans-serif;
+   height: 100vh;
+   width: 80vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+   .formInput input {   
+   width: 120px;
+   height: 40px;
+   padding: 0 15px;
+   background-color: transparent;
+   border: 2px solid black;
+   border-radius: 5px;
+   }
+   .slogan{
+   font-size: 10px;
+   color: purple;
+   transform: translateX(80%);
+   transform: translateY(880%); 
+   }
+   label{
+   font-size: 12px;
+   }
+   .cPass{
+   font-size: 9px;
+   
+   }
+   .formInput-first-row{
+      display: flex;
+      flex-direction: row;
+      gap: 20%;
+      justify-content: space-evenly;
+   }
+   .button{
+      font-size: 0.8rem;
+      padding: 0.4rem 1rem;
+      width: 20rem;
+      text-align: center;
+      border: solid 1px transparent;
+      margin-bottom: 1.5rem;
+      text-decoration: none;
+      color: white;
+      background-color: orangered;
+      margin-left: 80px;
+      
+   }
+}

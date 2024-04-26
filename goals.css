@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+h1{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+}
+input{
+     padding: 20px 100px; 
+    width: 20vw;
+    align-self: center;
+    background-color: transparent;
+    border-color: white;
+}
+input:hover{
+    border-color: black;
+}
+button{
+    background-color: orangered;
+    color: white;
+    border: solid 1px transparent;
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem;
+    width: rem;
+    text-align: center;
+    margin-top: 4%;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(59, 19, 5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+ }
+ body{
+    justify-content: center;
+    gap: 20px;
+    background-color: #ababab;
+    border: solid 1px #ababab;
+    border-radius: 25px;
+    margin:3px;
+
+}
+.logo{
+    zoom: 10%;
+}
+.achievements-input{
+    margin-top: 1%;
+}
+.slogan{
+    font-size: small;
+    color: purple;
+    text-align: center;
+    transform: translateY(-170%);
+ }
+ .input{
+    display: flex;
+    justify-content:center;
+    gap: 3%;
+ }

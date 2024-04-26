@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+}
+ body{
+    justify-content: center;
+    gap: 20px;
+    background-color: #ababab;
+    border: solid 1px #ababab;
+    border-radius: 25px;
+    margin:3px;
+
+}
+.logo{
+    zoom: 10%;
+}
+.slogan{
+    font-size: small;
+    color: purple;
+    text-align: center;
+    transform: translateY(-170%);
+ }
+ ul{
+    margin: 0;
+    padding: 0;
+ }
+ ul li{
+    background-color: transparent;
+    padding: 12px;
+    position: relative;
+    cursor: pointer;
+    font-size: medium;
+    transition: transform 150ms;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select:none;
+ }
+
+  ul li:nth-child(odd){
+    background: white;
+ } 
+ ul li:hover{
+    background: lightgray;
+    color: black;
+ }
+ ul li.checked{
+    color: rgb(89, 87, 87);
+    text-decoration: line-through;
+ }
+ ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: darkslategray;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 11px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    background-color: lightgray;
+    color: black;
+  }
+  .addButton{
+    width: 25%;
+    color: white;
+    float: left;
+    transform: translateY(160%);
+    background-color: orangered;
+    color: white;
+    border: solid 1px transparent;
+    font-size: 0.7rem;
+    padding: 0.5rem 0.2rem;
+    text-align: center;
+    cursor: pointer;
+
+  }
+   /* .addButton:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(59, 19, 5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+ }   */
+ .addButton:hover{
+    background-color: black;
+    color: white;
+ }
+
+ input{
+    margin: 0;
+    border: solid darkgray;
+    background-color: lightslategrey;
+    border-radius: 0;
+    width: 75%;
+    padding: 1.7rem ;
+    position: relative;
+ }
+ input:hover{
+    background-color: white;
+    color: black;
+ }
+
+ 
