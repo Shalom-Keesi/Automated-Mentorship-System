@@ -2,6 +2,7 @@
 h1{
     font-family: "Sofia",sans-serif;
     text-align: center;
+    transform: translateY(-140%);
 }
 h2{
     font-family: "Sofia",sans-serif;
@@ -9,7 +10,7 @@ h2{
 }
 
 input{
-    padding: 40px 40px;
+    padding: 10px;
     width: 350px;
     /* align-self: center; */
     /* transform: translateX(70%); */
@@ -31,9 +32,8 @@ button{
     border: solid 1px transparent;
     font-size: 0.7rem;
     padding: 0.5rem 0.5rem;
-    width: rem;
     text-align: left;
-    display: block;
+    float: left;
     margin-right: 20px;
     /* position: absolute; */
     /* transform: translateY(-250%);
@@ -58,12 +58,39 @@ button{
 .logo{
     zoom: 10%;
 }
-.achievements-input{
-    /* margin-top: 1%; */
-}
+
 .slogan{
     font-size: small;
     color: purple;
     text-align: center;
     transform: translateY(-90%);
  }
+ nav{
+    background-color: #abababee;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .nav-button{
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+ }
+ .navbar-button{
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+ }
+ .nav-button:hover{
+    color: orangered;
+   }
+   .navbar-button:hover{
+    color: orangered;
+   }
+   .nav-hr{
+    height: 20px;
+   }
+   /* .body-hr{
+    width: 50px;
+   } */

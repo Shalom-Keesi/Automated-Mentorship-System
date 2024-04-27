@@ -65,6 +65,7 @@ input:hover{
    text-decoration: none;
    color: white;
    background-color: orangered;
+   margin-left: 60px;
 }
 .button:hover{
    background-color: black;
@@ -85,7 +86,7 @@ input:hover{
   transform: translateY(400%)
 }
 .small{
-   margin-top: 9%;
+   margin-top: 29%;
    font-size: xx-small;
 }
 

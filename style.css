@@ -22,6 +22,7 @@ body {
    font-size: small;
    color: purple;
    transform: translateX(25%);
+   transform: translateY(750%);
 }
 .registrationForm {
    background-color: darkgray;
@@ -93,6 +94,7 @@ visibility: visible;
    color: white;
    background-color: orangered;
    justify-content: center;
+   margin-left: 170px;
    
 }
 hr{

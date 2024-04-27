@@ -27,7 +27,7 @@ hr{
     width: 100%;
 }
 #logo{
-    zoom: 20%;
+    zoom: 10%;
 }
 span{
     font-family: "Sofia",sans-serif;
@@ -49,8 +49,8 @@ span{
     font-size: small;
     color: purple;
     text-align: center;
-    transform: translateY(-170%);
-    float:inherit;
+    transform: translateY(20%);
+    /* float:inherit; */
  }
 
   ul {
@@ -137,11 +137,12 @@ span{
     border: none;
     border-radius: 0;
     width: 55%;
-    height: 35%;
-    padding: 40px ;
+    /* height: 5%; */
+    padding: 10px ;
     font-size: 16px;
     background-color: lightgray;
     transform: translateY(-70%);
+    
   }
   
   
@@ -164,3 +165,31 @@ span{
     background-color: #bbb;
     color: black;
   }
+  nav{
+    background-color: #abababee;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .nav-button{
+  background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+ }
+ .navbar-button{
+  background-color: transparent;
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px;
+ }
+ .nav-button:hover{
+  color: orangered;
+ }
+ .navbar-button:hover{
+  color: orangered;
+ }
+ .nav-hr{
+  height: 20px;
+  width: 0px;
+  padding: 0;
+ }

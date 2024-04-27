@@ -1,0 +1,35 @@
+body{
+    background-color: #ababab;
+    color: black;
+}
+h1{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+    transform: translateY(-170%);
+}
+h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+    zoom: 10%;
+}
+section{
+    margin: 0;
+    padding: 0;
+   
+}
+p{
+    text-align: center;
+}
+.back-button{
+    background-color: orangered;
+    color: white;
+    font-size: 1.8rem;
+    padding: 0 1rem;
+    width: 10rem;
+    display: block;
+    border: solid 1px transparent;
+    text-decoration: none;
+    font-family: "Sofia",sans-serif;
+}
