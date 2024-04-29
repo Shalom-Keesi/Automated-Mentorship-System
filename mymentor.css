@@ -18,9 +18,78 @@ body{
 
 .logo{
     zoom: 10%;
-    transform: translateX(-80%);
+    float: right;
    
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #ababab;
+    
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: darkgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: orangered;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; 
+  }
+  .navbar a{
+    color: orangered;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: orangered;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
 .profilepic{
     border: solid 0.5px transparent;
     border-radius: 175px;
@@ -48,30 +117,55 @@ h1{
  span{
     color: orangered;
  }
- nav{
-    background-color: #abababee;
-    display: flex;
-    justify-content: space-evenly;
+
+
+   @media  screen and (min-width:200px)and (max-width:399px){
+    .logo{
+        zoom: 3%;
+        transform: translateX(-80%);
+       
+    }
     
- }
- .nav-button{
-    background-color: transparent;
-    color: black;
-    text-decoration: none;
-    padding: 10px 10px;
- }
- .navbar-button{
-    background-color: transparent;
-    color: black;
-    text-decoration: none;
-    padding: 10px 10px;
- }
- .nav-button:hover{
-    color: orangered;
+     .logo{
+        zoom: 7%;
+        transform: translateX(-40%);
+        margin-bottom: 2%;
+       
+    }
+    
+       h1{
+        font-family: "Sofia",sans-serif;
+        text-align: center;
+        display: block;
+        font-size: medium;
+        font-weight: bolder;
+    }
+    .profilepic{
+        border: solid 0.5px transparent;
+        border-radius: 175px;
+        zoom: 15%;  
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slogan{
+        font-size: 12px;
+        color: purple;
+        text-align: center;
+        transform: translateY(30%);
+     }
+
+
    }
-   .navbar-button:hover{
-    color: orangered;
-   }
-   .nav-hr{
-    height: 20px;
+   @media  screen and (min-width:901px)and (max-width:1200px){
+
+    .profilepic{
+      border: solid 0.5px transparent;
+      border-radius: 175px;
+      zoom: 45%;  
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
    }

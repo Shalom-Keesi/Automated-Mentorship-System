@@ -6,20 +6,26 @@
     <title>To do List</title>
     <link rel="stylesheet" href="todo-two.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-  <nav>
-    <img src="/Images/SHIDO-DONE.png" id="logo" alt="my logo">
-    <a href="mymentor.html" class="navbar-button">My Mentor</a>
-    <hr class="nav-hr">
-    <a href="achievements.html" class="nav-button">My Achievements</a>
-    <hr class="nav-hr">
-    <a href="goals.html" class="navbar-button">My Goals</a>
-    <hr class="nav-hr">
-    <a href="todo-two.html" class="nav-button">My To-do List</a>
-    <hr class="nav-hr">
+  <div class="navbar">
+    <img src="/Images/SHIDO-DONE.png" alt="my logo" class="logo">
+        
+    <a href="homepage.html" class="home">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Menu
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="mymentor.html">My Mentor</a>
+        <a href="achievements.html">My Achievements</a>
+        <a href="goals.html">My Goals</a>
+        <a href="todo-two.html">My To do List</a>
+      </div>
+    </div>
+  </div> 
 
-</nav>
 <section>
     
         <div id="myDIV" class="header">

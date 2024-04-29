@@ -40,12 +40,7 @@ button{
     transform: translateX(-150%); */
 
 }
-/* button:hover{
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgb(59, 19, 5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
- } */
+
  body{
     justify-content: center;
     gap: 20px;
@@ -57,40 +52,83 @@ button{
 }
 .logo{
     zoom: 10%;
+    float: right;
 }
 
 .slogan{
     font-size: small;
     color: purple;
     text-align: center;
-    transform: translateY(-90%);
+    transform: translateY(-40%);
  }
- nav{
-    background-color: #abababee;
-    display: flex;
-    justify-content: space-evenly;
- }
- .nav-button{
-    background-color: transparent;
-    color: black;
+
+ .navbar {
+    overflow: hidden;
+    background-color: #ababab;
+    
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: darkgray;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 10px 10px;
- }
- .navbar-button{
-    background-color: transparent;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: orangered;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; 
+  }
+  .navbar a{
+    color: orangered;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: orangered;
     color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-    padding: 10px 10px;
- }
- .nav-button:hover{
-    color: orangered;
-   }
-   .navbar-button:hover{
-    color: orangered;
-   }
-   .nav-hr{
-    height: 20px;
-   }
-   /* .body-hr{
-    width: 50px;
-   } */
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  @media  screen and (min-width:200px)and (max-width:399px){
+    
+  }

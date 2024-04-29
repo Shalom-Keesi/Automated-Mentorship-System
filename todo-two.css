@@ -26,8 +26,9 @@ hr{
     object-fit: cover;
     width: 100%;
 }
-#logo{
+.logo{
     zoom: 10%;
+    float: right;
 }
 span{
     font-family: "Sofia",sans-serif;
@@ -165,31 +166,69 @@ span{
     background-color: #bbb;
     color: black;
   }
-  nav{
-    background-color: #abababee;
-    display: flex;
-    justify-content: space-evenly;
- }
- .nav-button{
-  background-color: transparent;
-    color: black;
+  .navbar {
+    overflow: hidden;
+    background-color: #ababab;
+    
+  }
+  
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: darkgray;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 10px 10px;
- }
- .navbar-button{
-  background-color: transparent;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: orangered;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; 
+  }
+  .navbar a{
+    color: orangered;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: orangered;
     color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
     text-decoration: none;
-    padding: 10px 10px;
- }
- .nav-button:hover{
-  color: orangered;
- }
- .navbar-button:hover{
-  color: orangered;
- }
- .nav-hr{
-  height: 20px;
-  width: 0px;
-  padding: 0;
- }
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
