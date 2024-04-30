@@ -55,7 +55,7 @@ button:hover{
     font-size: small;
     color: purple;
     text-align: center;
-    transform: translateY(-170%);
+    /* transform: translateY(-170%); */
  }
  .input{
     display: flex;
@@ -93,7 +93,7 @@ button:hover{
     color: orangered;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
+    font-family: inherit; 
     margin: 0; 
   }
   .navbar a{
@@ -129,4 +129,37 @@ button:hover{
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  @media  screen and (min-width:400px)and (max-width:900px){
+    h2{
+      font-family: "Sofia",sans-serif;
+      text-align: center;
+      font-size: 15px;
+  }
+  input{
+    padding: 5px 20px; 
+    width: 50vw;
+    align-self: center;
+    background-color: lightgray;
+    border-color: transparent;
+    margin-left: 21%;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+
+}
+button{
+  background-color: orangered;
+  color: white;
+  border: solid 1px transparent;
+  font-size: 0.7rem;
+  padding: 0.5rem 0.5rem;
+  width: rem;
+  text-align: center;
+  margin-left: 21%;
+}
+
   }

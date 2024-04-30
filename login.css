@@ -77,13 +77,13 @@ input:hover{
 }
 .logo{
    zoom: 20%;
-   transform: translateX(-25%);
+   /* transform: translateX(-25%); */
 }
 .slogan{
   font-size: 55px;
   color: purple;
-  transform: translateX(76%);
-  transform: translateY(400%)
+  /* transform: translateX(76%); */
+  /* transform: translateY(400%) */
 }
 .small{
    margin-top: 29%;
@@ -108,12 +108,12 @@ input:hover{
   
    .logo{
       zoom: 15%;
-      transform: translateX();
-      transform: translateY(-40%);
+      /* transform: translateX(); */
+      /* transform: translateY(-40%); */
   }
   h1{
-   transform: h
-   translateY(150%);
+   /* transform: h */
+   /* translateY(150%); */
   }
   body {
    background-color: #f9fafb;
@@ -179,7 +179,9 @@ input{
    .logo{
       zoom: 15%;
       transform: translateX();
-      transform: translateY(-40%);
+      margin-bottom: 10%;
+      margin-left: 5%
+      /* transform: translateY(-40%); */
   }
   h1{
    transform: h
@@ -196,6 +198,17 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
+input{
+   display: block;
+   background-color: transparent;
+   width: 100%;
+   height: 40px;
+   padding: 0 15px;
+   background-color: transparent;
+   border: 1px solid black;
+   border-radius: 5px;
+   /* margin-left: 5%; */
+}
 .formInput input {   
 width: 120px;
 height: 40px;
@@ -203,11 +216,16 @@ padding: 0 15px;
 background-color: transparent;
 border: 2px solid black;
 border-radius: 5px;
+margin-left: 25%;
+}
+label{
+   margin-left: 29%;
 }
 .slogan{
-font-size: 10px;
+font-size: 70px;
 color: purple;
-transform: translateX(20%); 
+margin-left: 15%;
+/* transform: translateX(20%);  */
 }
 label{
 font-size: 12px;
@@ -232,11 +250,16 @@ font-size: 9px;
    text-decoration: none;
    color: white;
    background-color: orangered;
-   margin-left: 80px;
+   margin-left: 95px;
    
 }
 hr{
    display: none;
+}
+.small{
+   margin-top: 29%;
+   font-size: xx-small;
+   margin-left: 25%;
 }
 }
 @media  screen and (min-width:901px)and (max-width:1200px){

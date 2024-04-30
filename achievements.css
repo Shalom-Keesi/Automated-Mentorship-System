@@ -2,7 +2,7 @@
 h1{
     font-family: "Sofia",sans-serif;
     text-align: center;
-    transform: translateY(-140%);
+    /* transform: translateY(-140%); */
 }
 h2{
     font-family: "Sofia",sans-serif;
@@ -32,9 +32,10 @@ button{
     border: solid 1px transparent;
     font-size: 0.7rem;
     padding: 0.5rem 0.5rem;
-    text-align: left;
-    float: left;
-    margin-right: 20px;
+    margin-right: 22%;
+    margin-top: 1%;
+    /* float: left; */
+    /* margin-right: 20px; */
     /* position: absolute; */
     /* transform: translateY(-250%);
     transform: translateX(-150%); */
@@ -59,7 +60,7 @@ button{
     font-size: small;
     color: purple;
     text-align: center;
-    transform: translateY(-40%);
+    /* transform: translateY(-40%); */
  }
 
  .navbar {
@@ -83,7 +84,7 @@ button{
     overflow: hidden;
   }
   
-  /* Dropdown button */
+  
   .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -91,7 +92,7 @@ button{
     color: orangered;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
+    font-family: inherit; 
     margin: 0; 
   }
   .navbar a{
@@ -130,5 +131,104 @@ button{
   }
 
   @media  screen and (min-width:200px)and (max-width:399px){
+    .logo{
+      zoom: 7%;
+      float: right;
+  }
+  h1{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+    /* transform: translateY(-140%); */
+}
+
+input{
+  padding: 10px;
+  width: 210px;
+  /* align-self: center; */
+  /* transform: translateX(70%); */
+  background-color: lightgray;
+  border-color:transparent;
+}
     
+  }
+  @media  screen and (min-width:400px)and (max-width:900px){
+    button{
+      background-color: orangered;
+      color: white;
+      border: solid 1px transparent;
+      font-size: 0.7rem;
+      padding: 0.5rem 0.5rem;
+      margin-right: 62%;
+      margin-top: 4%;
+  
+  }
+
+  }
+
+
+
+
+  @media  screen and (min-width:901px)and (max-width:1200px){
+    h1{
+      font-family: "Sofia",sans-serif;
+      text-align: center;
+      /* transform: translateY(-140%); */
+      font-size: 65px;
+  }
+  h2{
+    font-family: "Sofia",sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+
+input{
+    padding: 10px;
+    width: 650px;
+    height: 50px;
+    /* align-self: center; */
+    /* transform: translateX(70%); */
+    background-color: lightgray;
+    border-color:transparent;
+}
+.logo{
+  zoom: 12%;
+  float: right;
+}
+button{
+  background-color: orangered;
+  color: white;
+  border: solid 1px transparent;
+  font-size: 0.7rem;
+  padding: 3rem 3rem;
+  text-align: left;
+  float: left;
+  margin-right: 20px;
+  /* position: absolute; */
+  /* transform: translateY(-250%);
+  transform: translateX(-150%); */
+
+}
+.slogan{
+  font-size: large;
+  font-weight: bolder;
+  color: purple;
+  text-align: center;
+  /* transform: translateY(-40%); */
+}
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: orangered;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; 
+}
+.navbar a{
+  color: orangered;
+  font-size: 20px;
+}
+  
+
   }
